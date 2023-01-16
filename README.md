@@ -7,3 +7,6 @@ docker run -it -d \
   --ipc=host \
   fastai:latest
 ```
+
+### TODO
+https://github.com/fastai/fastsetup <- some useful scripts.
