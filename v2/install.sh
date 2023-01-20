@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -eou pipefail
 
 # borrowed from https://github.com/fastai/fastsetup/blob/master/ubuntu-initial.sh

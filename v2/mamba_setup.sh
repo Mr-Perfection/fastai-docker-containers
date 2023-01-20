@@ -1,5 +1,6 @@
-#!/usr/bin/env bash
-set -eou pipefail
+#!/bin/bash
+# https://gist.github.com/mohanpedala/1e2ff5661761d3abd0385e8223e16425#set--e--u--x--o-pipefail
+set -eoux pipefail
 
 # Mamba
 case "$OSTYPE" in
@@ -27,6 +28,5 @@ curl -LO --no-progress-meter $DOWNLOAD
 bash Mambaforge-*.sh -b
 
 ~/mambaforge/bin/conda init $SHELL_NAME
-
 
 
