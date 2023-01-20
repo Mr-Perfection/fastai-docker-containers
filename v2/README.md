@@ -8,5 +8,5 @@ docker run -it -d \
   fastaiv2:latest
 ```
 
-### TODO
-https://github.com/fastai/fastsetup <- some useful scripts.
+### Reference
+https://github.com/fastai/fastsetup
