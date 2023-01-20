@@ -1,11 +1,11 @@
 ### How to run the container
 ```
-docker build -t fastai .
+docker build -t fastaiv2 .
 
-docker run -it -d \
-  --name fastai \
+docker run -it -d \ 
+  --name fastaiv2 \
   --ipc=host \
-  fastai:latest
+  fastaiv2:latest
 ```
 
 ### TODO
