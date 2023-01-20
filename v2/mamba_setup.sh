@@ -29,4 +29,7 @@ bash Mambaforge-*.sh -b
 
 ~/mambaforge/bin/conda init $SHELL_NAME
 
+# init mamba
+mamba init
+
 
