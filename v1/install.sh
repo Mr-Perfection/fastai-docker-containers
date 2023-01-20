@@ -8,9 +8,10 @@ apt-get install -y --no-install-recommends software-properties-common dirmngr gp
 # PT_VER=$(curl -s https://pypi.org/pypi/torch/json | jq -r .info.version)
 # TV_VER=$(curl -s https://pypi.org/pypi/torchvision/json | jq -r .info.version)
 # pip install torch==$PT_VER+cpu torchvision==$TV_VER+cpu -f https://download.pytorch.org/whl/torch_stable.html
-
+https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
 # conda
-wget https://repo.anaconda.com/miniconda/Miniconda3-py310_22.11.1-1-Linux-aarch64.sh # or get the latest from https://docs.conda.io/en/latest/miniconda.html
+# or get the latest from https://docs.conda.io/en/latest/miniconda.html
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
 bash Miniconda3-py310_22.11.1-1-Linux-aarch64.sh
 conda install -c fastchan fastai
 conda install ipywidgets fastai neptune-client wandb pydicom captum
