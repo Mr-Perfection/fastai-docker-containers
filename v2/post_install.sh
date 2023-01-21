@@ -1,9 +1,5 @@
 #!/bin/bash
-source ~/.bashrc
-mamba install -y pytorch torchvision -c pytorch
-
-# Activate conda env.
-mamba create -y -n fastai jupyterlab -c conda-forge
-echo -n "alias notebook='jupyter notebook --allow-root'" >> ~/.bashrc
-echo -n "mamba activate fastai" >> ~/.bashrc
-mamba activate fastai
+# run `mamba init` before running post_install
+mamba install -y -c fastchan fastai
+mamba install -y jupyter
+pip install gradio
