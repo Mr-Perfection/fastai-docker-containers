@@ -7,6 +7,7 @@ WORKDIR /root
 COPY install.sh ./
 COPY mamba_setup.sh ./
 COPY post_install.sh ./
+COPY .zshrc ./
 RUN bash install.sh
 
 CMD [ "/bin/bash" ]

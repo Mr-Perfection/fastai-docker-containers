@@ -1,0 +1,1 @@
+alias notebook="jupyter notebook --allow-root"
